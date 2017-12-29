@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.24)  28 DEC 2017 16:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.12.29)  29 DEC 2017 18:54
 entering extended mode
 **"./data based optimization.tex"
 ("data based optimization.tex"
@@ -571,46 +571,158 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \rot@float@box=\box34
 \rot@mess@toks=\toks24
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen133
+\Hy@linkcounter=\count113
+\Hy@pagecounter=\count114
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count115
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4751.
+\c@Hy@tempcnt=\count116
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5104.
+\XeTeXLinkMargin=\dimen134
+\Fld@menulength=\count117
+\Field@Width=\dimen135
+\Fld@charsize=\dimen136
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+\Hy@abspage=\count118
+\c@Item=\count119
+\c@Hfootnote=\count120
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\Fld@listcount=\count121
+\c@bookmark@seq@number=\count122
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip63
+)
 ("data based optimization.aux")
 \openout1 = `"data based optimization.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 130.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 130
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 131.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 131
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\omltxmi.fd"
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 130.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 130
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 131.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 131
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\omstxsy.fd"
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 130.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 130
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 131.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 131
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\omxtxex.fd"
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 130.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 130.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 131.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 131.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\utxexa.fd"
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 130.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 131.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\ot1txr.fd"
@@ -618,52 +730,23 @@ File: ot1txr.fd 2000/12/15 v3.1
 )
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count113
-\scratchdimen=\dimen133
+\scratchcounter=\count123
+\scratchdimen=\dimen137
 \scratchbox=\box35
-\nofMPsegments=\count114
-\nofMParguments=\count115
+\nofMPsegments=\count124
+\nofMParguments=\count125
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count116
-\MPscratchDim=\dimen134
-\MPnumerator=\count117
-\makeMPintoPDFobject=\count118
+\MPscratchCnt=\count126
+\MPscratchDim=\dimen138
+\MPnumerator=\count127
+\makeMPintoPDFobject=\count128
 \everyMPtoPDFconversion=\toks26
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
@@ -707,18 +790,37 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \celsius on input line 130.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 130
+LaTeX Info: Redefining \celsius on input line 131.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 131
 .
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 130.
-Package gensymb Info: Using \Omega for \ohm on input line 130.
+LaTeX Info: Redefining \ohm on input line 131.
+Package gensymb Info: Using \Omega for \ohm on input line 131.
 
 Package gensymb Warning: Not defining \micro.
 
+\AtBeginShipoutBox=\box36
+Package hyperref Info: Link coloring OFF on input line 131.
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count129
+)
+LaTeX Info: Redefining \ref on input line 131.
+LaTeX Info: Redefining \pageref on input line 131.
+LaTeX Info: Redefining \nameref on input line 131.
+
+("data based optimization.out") ("data based optimization.out")
+\@outlinefile=\write4
+\openout4 = `"data based optimization.out"'.
+
 LaTeX Font Info:    Try loading font information for OMS+txr on input line 179.
+
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\omstxr.fd"
 File: omstxr.fd 2000/12/15 v3.1
@@ -748,77 +850,44 @@ LaTeX Font Info:    Try loading font information for U+txsyc on input line 193.
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Calculating math sizes for size <13> on input line 193.
-Missing character: There is no ‚ in font txr!
-Missing character: There is no Ä in font txr!
-Missing character: There is no ô in font txr!
 
+Underfull \hbox (badness 1253) in paragraph at lines 208--215
+\OT1/txr/m/n/10 Within the field of pro-duc-tion and man-u-fac-tur-ing, in-dus-
 
-Package natbib Warning: Citation `Eurostata' on page 1 undefined on input line 
-208.
+ []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-
-Package natbib Warning: Citation `Leobner2015' on page 1 undefined on input lin
-e 212.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 5359) in paragraph at lines 212--214
-\OT1/txr/m/n/10 BaMa con-sists of two main parts: First, the BaMa
- []
-
-
-Underfull \hbox (badness 6961) in paragraph at lines 212--214
-\OT1/txr/m/n/10 tool chain en-abling the in-ves-ti-ga-tion and op-ti-miza-tion
- []
-
-
-Underfull \hbox (badness 4072) in paragraph at lines 212--214
-\OT1/txr/m/n/10 of a given pro-duc-tion plant. Sec-ond, a method for
- []
-
-
-Underfull \hbox (badness 7291) in paragraph at lines 212--214
-\OT1/txr/m/n/10 a thor-ough anal-y-sis of any given pro-duc-tion fa-cil-ity.
- []
-
-
-Underfull \hbox (badness 1259) in paragraph at lines 212--214
-\OT1/txr/m/n/10 This method is the ba-sis for the tool chain and a stan-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 212--214
-
- []
-
-<elsevier-logo-3p.pdf, id=1, 54.08205pt x 59.7432pt>
+<elsevier-logo-3p.pdf, id=49, 54.08205pt x 59.7432pt>
 File: elsevier-logo-3p.pdf Graphic file (type pdf)
 
 <use elsevier-logo-3p.pdf>
-Package pdftex.def Info: elsevier-logo-3p.pdf used on input line 214.
+Package pdftex.def Info: elsevier-logo-3p.pdf used on input line 215.
 (pdftex.def)             Requested size: 54.0819pt x 59.74303pt.
-LaTeX Font Info:    Try loading font information for OT1+txss on input line 214
+LaTeX Font Info:    Try loading font information for OT1+txss on input line 215
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\ot1txss.fd"
 File: ot1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 214.
+(Font)              scaled to size 8.54997pt on input line 215.
 
-<svsd-3p.pdf, id=2, 212.96263pt x 102.04825pt>
+<svsd-3p.pdf, id=50, 212.96263pt x 102.04825pt>
 File: svsd-3p.pdf Graphic file (type pdf)
  <use svsd-3p.pdf>
-Package pdftex.def Info: svsd-3p.pdf used on input line 214.
+Package pdftex.def Info: svsd-3p.pdf used on input line 215.
 (pdftex.def)             Requested size: 212.96211pt x 102.04799pt.
 
-<procir.pdf, id=3, 80.9424pt x 59.83955pt>
+<procir.pdf, id=51, 80.9424pt x 59.83955pt>
 File: procir.pdf Graphic file (type pdf)
  <use procir.pdf>
-Package pdftex.def Info: procir.pdf used on input line 214.
+Package pdftex.def Info: procir.pdf used on input line 215.
 (pdftex.def)             Requested size: 80.9422pt x 59.8394pt.
 
 Overfull \hbox (1.7422pt too wide) has occurred while \output is active
@@ -827,15 +896,15 @@ Overfull \hbox (1.7422pt too wide) has occurred while \output is active
 
 File: elsevier-logo-3p.pdf Graphic file (type pdf)
 <use elsevier-logo-3p.pdf>
-Package pdftex.def Info: elsevier-logo-3p.pdf used on input line 214.
+Package pdftex.def Info: elsevier-logo-3p.pdf used on input line 215.
 (pdftex.def)             Requested size: 54.0819pt x 59.74303pt.
 File: svsd-3p.pdf Graphic file (type pdf)
  <use svsd-3p.pdf>
-Package pdftex.def Info: svsd-3p.pdf used on input line 214.
+Package pdftex.def Info: svsd-3p.pdf used on input line 215.
 (pdftex.def)             Requested size: 212.96211pt x 102.04799pt.
 File: procir.pdf Graphic file (type pdf)
  <use procir.pdf>
-Package pdftex.def Info: procir.pdf used on input line 214.
+Package pdftex.def Info: procir.pdf used on input line 215.
 (pdftex.def)             Requested size: 80.9422pt x 59.8394pt.
 
 Overfull \hbox (1.7422pt too wide) has occurred while \output is active
@@ -846,7 +915,7 @@ Overfull \hbox (1.7422pt too wide) has occurred while \output is active
 Overfull \vbox (52.74303pt too high) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <8> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 214.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 215.
 
 Overfull \vbox (25.45999pt too high) has occurred while \output is active []
 
@@ -855,173 +924,102 @@ Overfull \vbox (25.45999pt too high) has occurred while \output is active []
 
 
  <./elsevier-logo-3p.pdf> <./svsd-3p.pdf> <./procir.pdf>]
-<figures/Architecture_new.pdf, id=38, 722.7pt x 542.025pt>
+LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 218.
+
+<figures/Architecture_new.pdf, id=100, 722.7pt x 542.025pt>
 File: figures/Architecture_new.pdf Graphic file (type pdf)
 
 <use figures/Architecture_new.pdf>
-Package pdftex.def Info: figures/Architecture_new.pdf used on input line 218.
+Package pdftex.def Info: figures/Architecture_new.pdf used on input line 225.
 (pdftex.def)             Requested size: 261.0pt x 195.74915pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 218--219
+Overfull \hbox (9.0pt too wide) in paragraph at lines 225--226
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--223
-[]\OT1/txr/m/n/10 The BaMa Tool Chain con-tains three core mod-
- []
-
-LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 223.
-
-Package natbib Warning: Citation `monostori_cyber-physical_2014' on page 2 unde
-fined on input line 223.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
 []\OT1/txr/m/n/10 Monitoring: Struc-tural plant in-for-ma-tion,
  []
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 223--224
-\OT1/txr/m/n/10 doc-u-ments, which makes BaMa com-pat-i-ble with the
+Underfull \hbox (badness 1648) in paragraph at lines 232--233
+\OT1/txr/m/n/10 sensor data from an ex-ist-ing SCADA sys-tem cor-re-
  []
 
 
-Package natbib Warning: Citation `Balci2012' on page 2 undefined on input line 
-231.
-
-
-Package natbib Warning: Citation `Setavoraphan2008' on page 2 undefined on inpu
-t line 231.
-
-
-Package natbib Warning: Citation `Schatten2010' on page 2 undefined on input li
-ne 232.
-
-
-LaTeX Warning: Reference `FIG_ERM' on page 2 undefined on input line 234.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 231--236
-\OT1/txr/m/n/10 The de-com-po-si-tion into smaller parts fol-low-ing the
+Underfull \hbox (badness 1337) in paragraph at lines 232--233
+\OT1/txr/m/n/10 spond-ing to mea-sure-ments of tem-per-a-tures, elec-tri-cal
  []
 
 
-Underfull \hbox (badness 3965) in paragraph at lines 231--236
-\OT1/txr/m/n/10 divide-and-conquer prin-ci-ple makes it pos-si-ble to reuse
+Underfull \hbox (badness 1596) in paragraph at lines 232--233
+\OT1/txr/m/n/10 power and heat con-nected with chillers and cool-ing
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 231--236
-\OT1/txr/m/n/10 Therefore, cube bound-aries are of course vir-tual bor-ders.
- []
-
-[2 <./figures/Architecture_new.pdf>]
-Underfull \hbox (badness 10000) detected at line 240
-[]
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
+[][][][]$\OT1/cmtt/m/n/8 https : / / www . plm . automation . siemens . com / d
+e _ at / products /
  []
 
 
-Underfull \hbox (badness 10000) detected at line 265
-[]
+Underfull \vbox (badness 7203) has occurred while \output is active []
+
+ [2 <./figures/Architecture_new.pdf>]
+<figures/Chiller_Cube.png, id=156, 389.20406pt x 333.49594pt>
+File: figures/Chiller_Cube.png Graphic file (type png)
+
+<use figures/Chiller_Cube.png>
+Package pdftex.def Info: figures/Chiller_Cube.png used on input line 243.
+(pdftex.def)             Requested size: 261.0pt x 223.64975pt.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 243--244
+[][] 
  []
 
-Missing character: There is no ‚ in font txr!
-Missing character: There is no Ä in font txr!
-Missing character: There is no ô in font txr!
+<figures/modelstructure.png, id=159, 566.71725pt x 368.577pt>
+File: figures/modelstructure.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) detected at line 307
-[]
- []
-
-
-Overfull \hbox (11.09613pt too wide) in alignment at lines 308--327
-[] [] [] [] [] [] [] [] [][][][][][][][][][]
- []
-
+<use figures/modelstructure.png>
+Package pdftex.def Info: figures/modelstructure.png used on input line 252.
+(pdftex.def)             Requested size: 252.0pt x 163.89532pt.
 
 Overfull \hbox (4.0pt too wide) has occurred while \output is active
 $[]$\OT1/txr/m/n/8 3
  []
 
-[3] <figures/modelstructure.png, id=77, 566.71725pt x 368.577pt>
-File: figures/modelstructure.png Graphic file (type png)
+[3 <./figures/Chiller_Cube.png> <./figures/modelstructure.png>]
+Underfull \hbox (badness 10000) detected at line 260
+[]
+ []
 
-<use figures/modelstructure.png>
-Package pdftex.def Info: figures/modelstructure.png used on input line 340.
-(pdftex.def)             Requested size: 252.0pt x 163.89532pt.
-Missing character: There is no ‚ in font txr!
-Missing character: There is no Ä in font txr!
-Missing character: There is no ú in font txr!
-Missing character: There is no ‚ in font txr!
-Missing character: There is no Ä in font txr!
-Missing character: There is no ù in font txr!
-Missing character: There is no Ã in font txr!
-Missing character: There is no á in font txr!
+
+Underfull \hbox (badness 10000) detected at line 292
+[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) detected at line 333
+[]
+ []
+
+[4]
 Missing character: There is no ‚ in font txr!
 Missing character: There is no â in font txr!
 Missing character: There is no à in font txr!
- [4 <./figures/modelstructure.png>]
-Missing character: There is no ¬ in font txr!
-Missing character: There is no ¥ in font txr!
 
-Underfull \hbox (badness 10000) detected at line 483
+Underfull \hbox (badness 10000) detected at line 482
 []
  []
 
 
-Overfull \hbox (6.92017pt too wide) in alignment at lines 485--499
+Overfull \hbox (6.92017pt too wide) in alignment at lines 484--499
 [] [] [] [] [] [] [] [] [] [] [][][][][][][][][][][][][][][][][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 506
-[]
- []
-
-("data based optimization.bbl"
-Underfull \hbox (badness 3375) in paragraph at lines 17--21
-[]\OT1/txr/m/n/8 Bonneville, E., Ri-alhe, A.: Good prac-tice for en-ergy ef-fi-
-ciency
- []
-
-
-Underfull \hbox (badness 2460) in paragraph at lines 17--21
-\OT1/txr/m/n/8 in in-dus-try (2006).  URL https://leonardo-energy.org/sites/leo
-nardo-
- []
-
-Missing character: There is no ‚ in font txr!
-Missing character: There is no Ä in font txr!
-Missing character: There is no ì in font txr!
-
-Underfull \hbox (badness 4391) in paragraph at lines 23--30
-[]\OT1/txr/m/n/8 Bunse, K., Vod-icka, M., Sch[]onsleben, P., Br[]ulhart, M., Er
-nst,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--30
-\OT1/txr/m/n/8 F.O.: In-te-grat-ing en-ergy ef-fi-ciency per-for-mance in pro-d
-uc-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--30
-\OT1/txr/m/n/8 tion man-age-ment  gap anal-y-sis be-tween in-dus-trial needs an
-d
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--30
-\OT1/txr/m/n/8 sci-en-tific lit-er-a-ture.  Jour-nal of Cleaner Pro-duc-tion \O
-T1/txr/bx/n/8 19\OT1/txr/m/n/8 (6-7),
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--30
-\OT1/txr/m/n/8 667--679 (2011).  DOI 10.1016/j.jclepro.2010.11.011.  URL
  []
 
 
@@ -1030,185 +1028,53 @@ $[]$\OT1/txr/m/n/8 5
  []
 
 [5]
-Underfull \hbox (badness 1112) in paragraph at lines 38--43
-\OT1/txr/m/n/8 J., Kara, S., Hauschild, M., Kel-lens, K.: To-wards en-ergy and 
-re-
+Underfull \hbox (badness 10000) detected at line 506
+[]
  []
 
-
-Underfull \hbox (badness 1460) in paragraph at lines 38--43
-\OT1/txr/m/n/8 source ef-fi-cient man-u-fac-tur-ing: A pro-cesses and sys-tems 
-ap-proach.
- []
-
+("data based optimization.bbl"
 Missing character: There is no ‚ in font txr!
 Missing character: There is no Ä in font txr!
 Missing character: There is no ì in font txr!
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--51
-[]\OT1/txr/m/n/8 Herrmann, C., Thiede, S., Kara, S., Hes-sel-bach, J.: En-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--51
-\OT1/txr/m/n/8 ergy ori-ented sim-u-la-tion of man-u-fac-tur-ing sys-tems  Con-
-cept
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--51
-\OT1/txr/m/n/8 and ap-pli-ca-tion.  CIRP An-nals - Man-u-fac-tur-ing Tech-nol-o
-gy
- []
-
-
-Underfull \hbox (badness 5667) in paragraph at lines 45--51
-\OT1/txr/bx/n/8 60\OT1/txr/m/n/8 (1), 45--48 (2011).  DOI 10.1016/j.cirp.2011.0
-3.127.  URL
- []
-
-
-Underfull \hbox (badness 4739) in paragraph at lines 53--60
-[]\OT1/txr/m/n/8 Hesselbach, J., Her-rmann, C., Det-zer, R., Mar-tin, L., Thied
-e,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--60
-\OT1/txr/m/n/8 S., L[]udemann, B.: En-ergy Ef-fi-ciency through op-ti-mized co-
-
- []
-
-
-Underfull \hbox (badness 6893) in paragraph at lines 53--60
-\OT1/txr/m/n/8 or-di-na-tion of pro-duc-tion and tech-ni-cal build-ing ser-vice
-s.  In:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--60
-\OT1/txr/m/n/8 Con-fer-ence Pro-ceed-ings LCE2008 - 15th CIRP In-ter-na-tional
- []
-
-
-Underfull \hbox (badness 6825) in paragraph at lines 53--60
-\OT1/txr/m/n/8 Con-fer-ence on Li fe Cy-cle En-gi-neeringi, pp. 624--628 (2008)
-.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--60
-\OT1/txr/m/n/8 URL http://www.enopa.de/fileadmin/user%7B[]%7Dupload/08-
- []
-
-
-Overfull \hbox (85.00006pt too wide) in paragraph at lines 53--60
-\OT1/txr/m/n/8 11Hesselbach%7B[]%7D%7B[]%7DHerrmann%7B[]%7Det.%7B[]%7Dal.%7B[]%
-7D2008%7B[]%7D-
- []
-
-
-Overfull \hbox (103.81604pt too wide) in paragraph at lines 53--60
-\OT1/txr/m/n/8 %7B[]%7DEnergy%7B[]%7DEfficiency%7B[]%7Dthrough%7B[]%7Doptimized
-%7B[]%7Dcoordination.pdf 
- []
-
-
-Underfull \hbox (badness 1092) in paragraph at lines 62--68
-[]\OT1/txr/m/n/8 Hu, S., Liu, F., He, Y., Hu, T.: An on-line ap-proach for en-e
-rgy
- []
-
-
-Underfull \hbox (badness 1852) in paragraph at lines 87--93
-\OT1/txr/m/n/8 te-rial re-moval pro-cesses.  CIRP An-nals - Man-u-fac-tur-ing T
-ech-nol-
- []
-
-
-Underfull \hbox (badness 1360) in paragraph at lines 87--93
-\OT1/txr/m/n/8 ogy \OT1/txr/bx/n/8 60\OT1/txr/m/n/8 (1), 37--40 (2011).  DOI 10
-.1016/j.cirp.2011.03.018.  URL
- []
-
 Missing character: There is no ‚ in font txr!
 Missing character: There is no Ä in font txr!
 Missing character: There is no ì in font txr!
-
-Overfull \hbox (83.448pt too wide) in paragraph at lines 95--102
-\OT1/txr/m/n/8 http://hrcak.srce.hr/index.php?show=clanak%7B&%7Did%7B[]%7Dclana
-k%7B[]%7Djezik=158086 
- []
-
-
-Underfull \hbox (badness 3769) in paragraph at lines 104--111
-[]\OT1/txr/m/n/8 May, G., Bar-letta, I., Stahl, B., Taisch, M.: En-ergy man-age
--
- []
-
-
-Underfull \hbox (badness 6575) in paragraph at lines 104--111
-\OT1/txr/m/n/8 ment in pro-duc-tion: A novel method to de-velop key per-for-
- []
-
-
-Underfull \hbox (badness 1210) in paragraph at lines 104--111
-\OT1/txr/m/n/8 mance in-di-ca-tors for im-prov-ing en-ergy ef-fi-ciency.  Ap-pl
-ied En-ergy
- []
-
-
-Underfull \hbox (badness 2443) in paragraph at lines 104--111
-\OT1/txr/bx/n/8 149\OT1/txr/m/n/8 , 46--61 (2015).  DOI 10.1016/j.apenergy.2015
-.03.065.  URL
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--147
-[]\OT1/txr/m/n/8 Salonitis, K., Ball, P.: En-ergy Ef-fi-cient Man-u-fac-tur-ing
- from
- []
-
-
-Underfull \hbox (badness 6063) in paragraph at lines 141--147
-\OT1/txr/m/n/8 Ma-chine Tools to Man-u-fac-tur-ing Sys-tems.  Pro-ce-dia CIRP \
-OT1/txr/bx/n/8 7\OT1/txr/m/n/8 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--147
-\OT1/txr/m/n/8 634--639 (2013).  DOI 10.1016/j.procir.2013.06.045.  URL
- []
-
+Missing character: There is no ‚ in font txr!
+Missing character: There is no Ä in font txr!
+Missing character: There is no ì in font txr!
 )
-
-Package natbib Warning: There were undefined citations.
-
-[6] ("data based optimization.aux")
-
-LaTeX Warning: There were undefined references.
-
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 528.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 528.
+ ("data based optimization.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 528.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 528.
+Package rerunfilecheck Info: File `"data based optimization".out' has not chang
+ed.
+(rerunfilecheck)             Checksum: 1A9761AF8C726F4A959D9252A56B1993;516.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 528.
  ) 
 Here is how much of TeX's memory you used:
- 4465 strings out of 493323
- 58390 string characters out of 3139057
- 142772 words of memory out of 3000000
- 7842 multiletter control sequences out of 15000+200000
- 62988 words of font info for 152 fonts, out of 3000000 for 9000
+ 8048 strings out of 493323
+ 112964 string characters out of 3139056
+ 222209 words of memory out of 3000000
+ 11341 multiletter control sequences out of 15000+200000
+ 61385 words of font info for 151 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,16n,43p,1848b,340s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,16n,43p,1323b,381s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/txfonts/rtxi.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/txfonts/rtxmi.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/txfonts/rtxr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/txex.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/txsy.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a
-.pfb>
-Output written on "data based optimization.pdf" (6 pages, 683439 bytes).
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/txfonts/rtxi.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/txf
+onts/rtxmi.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/rtxr.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/txex.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/txfonts/txsy.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "data based optimization.pdf" (6 pages, 723895 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 267 PDF objects out of 1000 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
+ 103 words of extra memory for PDF output out of 10000 (max. 10000000)
 
