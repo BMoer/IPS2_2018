@@ -1,0 +1,164 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI~\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem{Bleicher2014a}
+Bleicher, F., Duer, F., Leobner, I., Kovacic, I., Heinzl, B., Kastner, W.:
+  {Co-simulation environment for optimizing energy efficiency in production
+  systems}.
+\newblock CIRP Annals - Manufacturing Technology \textbf{63}(1), 441--444
+  (2014)
+
+\bibitem{Bonneville2006a}
+Bonneville, E., Rialhe, A.: {Good practice for energy efficiency in industry}
+  (2006).
+\newblock
+  \urlprefix\url{https://leonardo-energy.org/sites/leonardo-energy/files/root/Documents/2009/DSM-industry.pdf}
+
+\bibitem{Bunse2011}
+Bunse, K., Vodicka, M., Sch{\"{o}}nsleben, P., Br{\"{u}}lhart, M., Ernst, F.O.:
+  {Integrating energy efficiency performance in production management – gap
+  analysis between industrial needs and scientific literature}.
+\newblock Journal of Cleaner Production \textbf{19}(6-7), 667--679 (2011).
+\newblock \doi{10.1016/j.jclepro.2010.11.011}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0959652610004452}
+
+\bibitem{Chryssolouris1992}
+Chryssolouris, G.: {Manufacturing Systems: Theory and Practice}, 1st edn.
+\newblock Springer Science {\{}{\&}{\}} Business Media, New York (1992).
+\newblock
+  \urlprefix\url{https://books.google.com/books?id=663VBwAAQBAJ{\%}7B{\&}{\%}7Dpgis=1}
+
+\bibitem{Duflou2012}
+Duflou, J.R., Sutherland, J.W., Dornfeld, D., Herrmann, C., Jeswiet, J., Kara,
+  S., Hauschild, M., Kellens, K.: {Towards energy and resource efficient
+  manufacturing: A processes and systems approach}.
+\newblock CIRP Annals - Manufacturing Technology \textbf{61}, 587--609 (2012).
+\newblock \doi{10.1016/j.cirp.2012.05.002}
+
+\bibitem{Herrmann2011}
+Herrmann, C., Thiede, S., Kara, S., Hesselbach, J.: {Energy oriented simulation
+  of manufacturing systems – Concept and application}.
+\newblock CIRP Annals - Manufacturing Technology \textbf{60}(1), 45--48 (2011).
+\newblock \doi{10.1016/j.cirp.2011.03.127}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0007850611001284}
+
+\bibitem{Hesselbach2008}
+Hesselbach, J., Herrmann, C., Detzer, R., Martin, L., Thiede, S.,
+  L{\"{u}}demann, B.: {Energy Efficiency through optimized coordination of
+  production and technical building services}.
+\newblock In: Conference Proceedings LCE2008 - 15th CIRP International
+  Conference on Li fe Cycle Engineeringi, pp. 624--628 (2008).
+\newblock
+  \urlprefix\url{http://www.enopa.de/fileadmin/user{\%}7B{\_}{\%}7Dupload/08-11Hesselbach{\%}7B{\_}{\%}7D{\%}7B{\_}{\%}7DHerrmann{\%}7B{\_}{\%}7Det.{\%}7B{\_}{\%}7Dal.{\%}7B{\_}{\%}7D2008{\%}7B{\_}{\%}7D-{\%}7B{\_}{\%}7DEnergy{\%}7B{\_}{\%}7DEfficiency{\%}7B{\_}{\%}7Dthrough{\%}7B{\_}{\%}7Doptimized{\%}7B{\_}{\%}7Dcoordination.pdf}
+
+\bibitem{Hu2012}
+Hu, S., Liu, F., He, Y., Hu, T.: {An on-line approach for energy efficiency
+  monitoring of machine tools}.
+\newblock Journal of Cleaner Production \textbf{27}, 133--140 (2012).
+\newblock \doi{10.1016/j.jclepro.2012.01.013}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S095965261200025X}
+
+\bibitem{Introna2014}
+Introna, V., Cesarotti, V., Benedetti, M., Biagiotti, S., Rotunno, R.: {Energy
+  Management Maturity Model: an organizational tool to foster the continuous
+  reduction of energy consumption in companies}.
+\newblock Journal of Cleaner Production \textbf{83}, 108--117 (2014).
+\newblock \doi{10.1016/j.jclepro.2014.07.001}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0959652614006817}
+
+\bibitem{Jazdi2014}
+Jazdi, N.: {Cyber physical systems in the context of Industry 4.0}.
+\newblock In: 2014 IEEE International Conference on Automation, Quality and
+  Testing, Robotics, pp. 1--4. IEEE (2014).
+\newblock \doi{10.1109/AQTR.2014.6857843}.
+\newblock
+  \urlprefix\url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6857843}
+
+\bibitem{Kara2011}
+Kara, S., Li, W.: {Unit process energy consumption models for material removal
+  processes}.
+\newblock CIRP Annals - Manufacturing Technology \textbf{60}(1), 37--40 (2011).
+\newblock \doi{10.1016/j.cirp.2011.03.018}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0007850611000199}
+
+\bibitem{Kovacic2013}
+Kovacic, I., Orehounig, K., Mahdavi, A., Bleicher, F., Dimitrou, A.A.,
+  Waltenbereger, L.: {Energy Efficient Production – Interdisciplinary,
+  Systemic Approach through Integrated Simulation}.
+\newblock Strojarstvo: Journal for Theory and Application in Mechanical
+  Engineering \textbf{55}(1), 17--34 (2013).
+\newblock
+  \urlprefix\url{http://hrcak.srce.hr/index.php?show=clanak{\%}7B{\&}{\%}7Did{\%}7B{\_}{\%}7Dclanak{\%}7B{\_}{\%}7Djezik=158086}
+
+\bibitem{May2015}
+May, G., Barletta, I., Stahl, B., Taisch, M.: {Energy management in production:
+  A novel method to develop key performance indicators for improving energy
+  efficiency}.
+\newblock Applied Energy \textbf{149}, 46--61 (2015).
+\newblock \doi{10.1016/j.apenergy.2015.03.065}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0306261915003578}
+
+\bibitem{Michaloski2011}
+Michaloski, J.L., Shao, G., Arinez, J., Lyons, K., Leong, S., Riddick, F.:
+  {Analysis of sustainable manufacturing using simulation for integration of
+  production and building service}.
+\newblock In: Proceedings of the 2011 Symposium on Simulation for Architecture
+  and Urban Design (SimAUD), pp. 93--101. Society for Computer Simulation
+  International, Boston (2011).
+\newblock \urlprefix\url{http://dl.acm.org/citation.cfm?id=2048536.2048548}
+
+\bibitem{Monfet}
+Monfet, D., Zmeureanu, R.: {Identification of the electric chiller model for
+  the energyplus program using monitored data in an existing cooling plant}.
+\newblock In: Proceedings of Building Simulation 2011, pp. 530--537 (2011)
+
+\bibitem{Monostori2014}
+Monostori, L.: {Cyber-physical Production Systems: Roots, Expectations and
+  R{\&}D Challenges}.
+\newblock Procedia CIRP \textbf{17}, 9--13 (2014).
+\newblock \doi{10.1016/j.procir.2014.03.115}
+
+\bibitem{Paulus2011}
+Paulus, M., Borggrefe, F.: {The potential of demand-side management in
+  energy-intensive industries for electricity markets in Germany}.
+\newblock Applied Energy \textbf{88}(2), 432--441 (2011).
+\newblock \doi{10.1016/j.apenergy.2010.03.017}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0306261910000814}
+
+\bibitem{Salonitis2013}
+Salonitis, K., Ball, P.: {Energy Efficient Manufacturing from Machine Tools to
+  Manufacturing Systems}.
+\newblock Procedia CIRP \textbf{7}, 634--639 (2013).
+\newblock \doi{10.1016/j.procir.2013.06.045}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S2212827113003144}
+
+\bibitem{Thiede2012}
+Thiede, S., Bogdanski, G., Herrmann, C.: {A Systematic Method for Increasing
+  the Energy and Resource Efficiency in Manufacturing Companies}.
+\newblock Procedia CIRP \textbf{2}, 28--33 (2012).
+\newblock \doi{10.1016/j.procir.2012.05.034}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S2212827112001357}
+
+\bibitem{Weinert2011}
+Weinert, N., Chiotellis, S., Seliger, G.: {Methodology for planning and
+  operating energy-efficient production systems}.
+\newblock CIRP Annals - Manufacturing Technology \textbf{60}(1), 41--44 (2011).
+\newblock \doi{10.1016/j.cirp.2011.03.015}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0007850611000163}
+
+\end{thebibliography}
