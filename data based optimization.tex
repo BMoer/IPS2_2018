@@ -235,6 +235,11 @@ For the chillers under consideration in this paper, the following steps where ca
 \end{itemize}
 As mentioned, within the tool chain a "virtual twin" of the real production plant (i.e. a model) is used to predict the behaviour of the physical system. The potential modelling effort is considerable and needs to be minimized in order to make BaMa a feasible and applicable tool for companies. To address this, the cube concept is introduced and will be explained in the following section.
 \subsection{Modelling Approach}
+\begin{figure}
+	\includegraphics[width=0.5\textwidth]{figures/modelstructure}
+	\caption{BaMa Architecture}
+	\label{FIG_Model}
+\end{figure}
 Each production site needs to be modelled individually in order to be able to generate valid optimization strategies. For BaMa to be feasible despite this issue, a high degree of model re-usability must be achieved. \cite{Balci2012,Setavoraphan2008} suggest decomposition at model design level when dealing with simulations of comparable scope.\\
 Object-oriented software engineering follows similar design principles. Entity classes and their possible interaction are defined using entity-relationship models (ERM) thus providing a certain kind of standardization. The inner behaviour of those entities is encapsulated and hidden from the outside. The only interactions with the surroundings happens via interfaces. As a consequence, entities can be removed and replaced without impeding  the overall model \cite{Schatten2010}.
 The decomposition into smaller parts following the divide-and-conquer principle makes it possible to reuse existing models by describing relevant subsystems of the plant as instances of predefined entity classes. In the BaMa context, those smaller parts are called "cubes". They have defined interfaces and boundaries have proven useful in the modelling of production facilities.
@@ -246,13 +251,7 @@ In figure \ref{FIG_Cube}, an example cube is depicted. It represents a generic m
 \end{figure}
 \section{Use Case}
 As stated earlier, the optimization of the operation of an industrial chiller network is at the central of this paper. The system under investigation is depicted in figure \ref{FIG_Model}. In total, twelve chillers with electrical power input rates between 300 and 500kW where investigated. Apart from producing chilled water, some of the chillers are also used to aid the heating network using heat recovery. Those chillers capable of providing heat to the HVAC system have a significantly worse COP then those without this capability. The goal of this use case was to identify operating strategies for the chillers based on given heating and cooling demands from external sinks (production plant and office building). In accordance with the BaMa method, monitoring data was used to parametrize the models. They then where implemented using a simulation tool-chain. Lastly, an optimization algorithm was applied. 
-\begin{figure}[t]
-	\vspace*{10pt}
-	%\centerline{\includegraphics{fx1}\hspace*{5mm}\includegraphics{fx1}}
-	\centerline{\includegraphics[width=21pc]{figures/modelstructure}}
-	\caption{Overview of the model structure.}
-	\label{FIG_Model}
-\end{figure}
+
 \subsection{Model Parametrization}
 An approach to identify the chillers model coefficients by using collected monitoring data was chosen based on \cite{Monfet}. Data including the electric power input (P\textsubscript{e}) and the evaporator load (Q\textsubscript{e}) got measured from eight chillers, and additionally the chilled water supply temperature (T\textsubscript{chws}) and the temperature leaving the condenser (T\textsubscript{cnds}) from four chillers were monitored over a time period of at least one month (Table 1). The available data was collected every 30 seconds from each chiller. In order to improve the identification (parameter estimation) process, outliers and incomplete data where removed from the dataset. 
 
@@ -358,7 +357,7 @@ Due to the fact that some models describe the associated chillers with a large R
 
 \subsection{Model Implementation}
 
-In this section the implementation of the model in AMESIM is described. Eventhough some predefined models are provided for, the built-in libraries of did not meet the requirements of the system, so both the models for chillers and energy grids had to be implemented from scratch. Regarding the signal routing between the models however, it was possible to use standard components. Logically, the simulation input is the power demand (cooling and heating) from the production building. This requirement is sent to the energy grid as an information flow. The energy grid fulfils the requirement by sending cooling power to the production plant. As a consequence, the energy level in the grid changes. This change is described using the following equation:
+In this section the implementation of the model in AMESIM is described. Even though some predefined models are provided for, the built-in libraries of did not meet the requirements of the system, so both the models for chillers and energy grids had to be implemented from scratch. Regarding the signal routing between the models however, it was possible to use standard components. Logically, the simulation input is the power demand (cooling and heating) from the production building. This requirement is sent to the energy grid as an information flow. The energy grid fulfils the requirement by sending cooling power to the production plant. As a consequence, the energy level in the grid changes. This change is described using the following equation:
 
 \begin{equation}
 \begin{array}{@{}lcl}
@@ -522,7 +521,9 @@ Scenario 3 and 4 are the same with the heat recovery systems included in the fit
 \end{table}
 
 \section{Conclusion}
-It must be mentioned that there is still a potential error up to 28\% in energy prediction in the chiller models.
+In this article we presented a novel method called BaMa Method which was applied to the problem of optimal selection of industrial chillers. This was done using simulation models of the underlying system, which where derived from monitoring data. Different target functions where tested in order to reflect varying management targets. This goes beyond what similar 
+Regarding the next steps, further work will be done on the improvement of model quality. Using the current models, still an overall error of up to 28\% has to be expected in the worst case. Also the optimization time will be improved by selecting more intelligent implementations.
+Both, the modelling quality and the optimization time are due to the chosen software environment AMESIM, which prevented the use of more sophisticated modelling techniques.
 \bibliography{Data_based_optimization}   % name your BibTeX data base
 \bibliographystyle{elsarticle-num}      % mathematics and physical sciences
 \end{document}

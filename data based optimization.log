@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.12.29)  29 DEC 2017 18:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.12.29)  30 DEC 2017 14:06
 entering extended mode
 **"./data based optimization.tex"
 ("data based optimization.tex"
@@ -968,35 +968,40 @@ e _ at / products /
 Underfull \vbox (badness 7203) has occurred while \output is active []
 
  [2 <./figures/Architecture_new.pdf>]
-<figures/Chiller_Cube.png, id=156, 389.20406pt x 333.49594pt>
-File: figures/Chiller_Cube.png Graphic file (type png)
-
-<use figures/Chiller_Cube.png>
-Package pdftex.def Info: figures/Chiller_Cube.png used on input line 243.
-(pdftex.def)             Requested size: 261.0pt x 223.64975pt.
-
-Overfull \hbox (9.0pt too wide) in paragraph at lines 243--244
-[][] 
- []
-
-<figures/modelstructure.png, id=159, 566.71725pt x 368.577pt>
+<figures/modelstructure.png, id=151, 566.71725pt x 368.577pt>
 File: figures/modelstructure.png Graphic file (type png)
 
 <use figures/modelstructure.png>
-Package pdftex.def Info: figures/modelstructure.png used on input line 252.
-(pdftex.def)             Requested size: 252.0pt x 163.89532pt.
+Package pdftex.def Info: figures/modelstructure.png used on input line 239.
+(pdftex.def)             Requested size: 261.0pt x 169.75555pt.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 239--240
+[][] 
+ []
+
+<figures/Chiller_Cube.png, id=157, 389.20406pt x 333.49594pt>
+File: figures/Chiller_Cube.png Graphic file (type png)
+
+<use figures/Chiller_Cube.png>
+Package pdftex.def Info: figures/Chiller_Cube.png used on input line 248.
+(pdftex.def)             Requested size: 261.0pt x 223.64975pt.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 248--249
+[][] 
+ []
+
 
 Overfull \hbox (4.0pt too wide) has occurred while \output is active
 $[]$\OT1/txr/m/n/8 3
  []
 
-[3 <./figures/Chiller_Cube.png> <./figures/modelstructure.png>]
-Underfull \hbox (badness 10000) detected at line 260
+[3 <./figures/modelstructure.png> <./figures/Chiller_Cube.png>]
+Underfull \hbox (badness 10000) detected at line 259
 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 292
+Underfull \hbox (badness 10000) detected at line 291
 []
  []
 
@@ -1004,7 +1009,7 @@ Underfull \hbox (badness 10000) detected at line 292
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) detected at line 333
+Underfull \hbox (badness 10000) detected at line 332
 []
  []
 
@@ -1013,12 +1018,12 @@ Missing character: There is no â in font txr!
 Missing character: There is no ‰ in font txr!
 Missing character: There is no ˆ in font txr!
 
-Underfull \hbox (badness 10000) detected at line 482
+Underfull \hbox (badness 10000) detected at line 481
 []
  []
 
 
-Overfull \hbox (6.92017pt too wide) in alignment at lines 484--499
+Overfull \hbox (6.92017pt too wide) in alignment at lines 483--498
 [] [] [] [] [] [] [] [] [] [] [][][][][][][][][][][][][][][][][]
  []
 
@@ -1028,7 +1033,7 @@ $[]$\OT1/txr/m/n/8 5
  []
 
 [5]
-Underfull \hbox (badness 10000) detected at line 506
+Underfull \hbox (badness 10000) detected at line 505
 []
  []
 
@@ -1043,21 +1048,21 @@ Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no “ in font txr!
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 528.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 529.
  [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 528.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 529.
  ("data based optimization.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 528.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 528.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 529.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 529.
 Package rerunfilecheck Info: File `"data based optimization".out' has not chang
 ed.
 (rerunfilecheck)             Checksum: 1A9761AF8C726F4A959D9252A56B1993;516.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 528.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 529.
  ) 
 Here is how much of TeX's memory you used:
  8048 strings out of 493323
  112964 string characters out of 3139056
- 222209 words of memory out of 3000000
+ 221195 words of memory out of 3000000
  11341 multiletter control sequences out of 15000+200000
  61385 words of font info for 151 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1072,7 +1077,7 @@ iles/MiKTeX 2.9/fonts/type1/public/txfonts/txsy.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "data based optimization.pdf" (6 pages, 723895 bytes).
+Output written on "data based optimization.pdf" (6 pages, 724458 bytes).
 PDF statistics:
  267 PDF objects out of 1000 (max. 8388607)
  59 named destinations out of 1000 (max. 500000)
