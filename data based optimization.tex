@@ -522,7 +522,9 @@ Scenario 3 and 4 are the same with the heat recovery systems included in the fit
 
 \section{Conclusion}
 In this article we presented a novel method called BaMa Method which was applied to the problem of optimal selection of industrial chillers. This was done using simulation models of the underlying system, which where derived from monitoring data. Different target functions where tested in order to reflect varying management targets. This goes beyond what similar 
-Regarding the next steps, further work will be done on the improvement of model quality. Using the current models, still an error of up to 38.5\% has to be expected in the worst case. Also the optimization time will be improved by selecting more intelligent implementations.
+Regarding the next steps, further work will be done on the improvement of model quality. 
+The optimal operation strategy found by the genetic algorithm uses the chillers B24\_4, B24a\_2, B24a\_3 and B24a\_4 with an weighted modell error, which takes into account the different capacities of the chillers, of in sum up to 10.74\%. This leads to energy savings of at least 24.22\% for the chosen scenario with a PLR of 35.9\%, but also shows how important it is to use more complex models to minimize the modell error.   
+Also the optimization time will be improved by selecting more intelligent implementations.
 Both, the modelling quality and the optimization time are due to the chosen software environment AMESIM, which prevented the use of more sophisticated modelling techniques.
 \bibliography{Data_based_optimization}   % name your BibTeX data base
 \bibliographystyle{elsarticle-num}      % mathematics and physical sciences
