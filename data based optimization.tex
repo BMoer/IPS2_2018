@@ -54,7 +54,7 @@
 
 %% Give the author list to appear in the running head
 %% Example \runauth{C.V. Radhakrishnan et al.}
-\runauth{Author name}
+\runauth{B. M\"orzinger et al.}
 
 %% The choice of journal logo is determined by the \jid and \jnltitlelogo commands.
 %% A user-supplied logo with the name <\jid>logo.pdf will be inserted if present.
@@ -405,7 +405,7 @@ T &=&
 \end{array}\vspace*{-12pt}
 \end{equation}
 
-The internal variable E is the controlled variable of the grid. It is controlled by a PI-Controller. Energy grid 1 demands cooling power based on a distribution function. This function splits the demand in several parts and sends it to the respective chillers. This is done by comparing two variables: the required heat flow Q\textsubscript{e,r} from the energy grid and the currently produced heat flow Q\textsubscript{e} from the chillers. If less cooling power is produced than consumed, the distribution function starts the next chiller. The sequence in which the chillers are started is defined in the priority list. 
+The internal variable E is the controlled variable of the grid. It is controlled by a PI-Controller. Energy grid 1 demands cooling power based on a distribution function. This function splits the demand in several parts and sends it to the respective chillers. This is done by comparing two variables: the required heat flow Q\textsubscript{e,r} from the energy grid and the currently produced heat flow Q\textsubscript{e} from the chillers. If less cooling power is produced than consumed, the distribution function starts the next chiller. The sequence in which the chillers are started is defined in the priority vector. 
 
 The chiller submodel receives the following energy flows: P\textsubscript{el}, Q\textsubscript{c} as an external input and Q\textsubscript{e}, Q\textsubscript{hr} as an external output. The information flows used are: the temperatures in energy grid 1 T\textsubscript{chws} and the temperature in energy grid 2 T\textsubscript{cnds}. The recovered heat flow Q\textsubscript{hr} is fed into the heat grid, which provides the office buildings (see figure 1) with a heat flow.
 
@@ -437,11 +437,11 @@ By using the heat recovery systems of the chillers, the heat energy required fro
 \end{array}\vspace*{-12pt}
 \end{equation}
 
-To emit the heat of the chillers to the environment, cooling towers are used. Those where modelled by just applying a maximum possible heat flow Q\textsubscript{cmax} to the environment. If the required cooling energy flow Q\textsubscript{c} from the chillers is higher than Q\textsubscript{cmax}, not enough heat can be emitted to the environment and the temperature Tcnds in energy grid 2 rises. This influences CAPFT and EIRFT in the chillers as shown above.
+To emit the heat of the chillers to the environment, cooling towers are used. Those where modelled by just applying a maximum possible heat flow Q\textsubscript{cmax} to the environment. If the required cooling energy flow Q\textsubscript{c} from the chillers is higher than Q\textsubscript{cmax}, not enough heat can be emitted to the environment and the temperature T\textsubscript{cnds} in energy grid 2 rises. This influences CAPFT and EIRFT in the chillers as shown above.
 The same effects occur when the requirement of cooling power Q\textsubscript{e,r} exceeds the maximum possible heat flow Q\textsubscript{e} from the chillers. The energy level in grid 1 changes and the temperature T\textsubscript{chws} rises. The simulation considers this dynamic behaviour of the grids and the effects on the chillers.
 
 \subsection{Optimization}
-Based on the analysis of the model errors, 9 chillers were selected for optimization (Table \ref{TAB_Errors}). The scenarios considered where derived from typical production days. Throughout those, the power demands fluctuate and chillers need to be switched on and off. A switch-on sequence, which is modelled as a priority list, determines the order in which this happens. Consequently, the optimization problem has nine degrees of freedom and therefore 9! ≈ 3.6E9 potential solutions. A genetic algorithm was chosen to find a time-efficient optimum.
+Based on the analysis of the model errors, 9 chillers were selected for optimization (Table \ref{TAB_Errors}). The scenarios considered where derived from typical production days. Throughout those, the power demands fluctuate and chillers need to be switched on and off. A switch-on sequence, which is modelled as a priority vector, determines the order in which this happens. Consequently, the optimization problem has nine degrees of freedom and therefore 9! ≈ 3.6E9 potential solutions. A genetic algorithm was chosen to find a time-efficient optimum.
 An example for a vector is given here:
 
 \begin{equation}
@@ -465,17 +465,17 @@ Another core part of the optimization is the fitness function (equation \ref{EQU
 \displaystyle 
 f &=& 
 \displaystyle 
-\omega_{1}P_{el,r} + \omega_{2}Q_{h,net}
+\omega_{1}E_{el,r} + \omega_{2}Q_{h,net}
 \\[6pt]
 
 \end{array}\vspace*{-12pt}
 \label{EQU_Fitness}
 \end{equation}
 
-The fitness function consists of two main parts: the first part is weighted with $ \omega_{1} $ and considers the electrical energy consumption P\textsubscript{el,r}. The second part is weighted with $ \omega_{2} $ and considers the heat energy consumption from external sources Q\textsubscript{h,net}. The heat energy consumption from external sources is calculated as the difference between the required heat energy and the heat provided by the chillers with heat recovery system (see section model implementation).
+The fitness function consists of two main parts: the first part is weighted with $ \omega_{1} $ and considers the electrical energy consumption E\textsubscript{el,r}. The second part is weighted with $ \omega_{2} $ and considers the heat energy consumption from external sources Q\textsubscript{h,net}. The heat energy consumption from external sources is calculated as the difference between the required heat energy and the heat provided by the chillers with heat recovery system (see section model implementation).
 By setting the weight factors, different goals can be pursued. To perform an optimization of the energy consumption in the scenario, all factors can be set to 1. Then the optimizer directly minimizes the consumed energy in the scenario. Another goal could be the optimization of the costs. If both weighting factors are set to the energy prices for electricity and heat, the costs can be calculated directly from the fitness value and the optimizer minimizes the costs. Another use case is to reduce the impact on the environment by minimizing the CO\textsubscript{2}-Emissions. In order to do so however, detailed information about the sources of electric and heat energy is required. The weighting factors can be set depending on the emitted CO\textsubscript{2} by producing 1 kWh electric energy and 1 kWh heat energy.
 The performance of the optimization process highly depends on the workload of the chillers. If the workload is high, a high number of chillers is running and the impact of the priority vector on the performance is reduced. If the workload is lower, there are more different switch-on sequences, so the optimizer has more degrees of freedom to reduce the fitness value. To evaluate the performance of the optimization process, scenarios with high and low workload conditions are investigated separately (table \ref{TAB_Scenarios}).
-In the first scenario, heat energy requirement weighting factor is set to 0. The electric energy consumption P\textsubscript{el,r},rlb is the only variable effecting the fitness value. In the second scenario, the heat energy requirement weighting factor is set to 1. In this case, an optimization of the total energy consumption (electricity and heat) is performed. An overview of the used weighting and cost factors is given in table \ref{TAB_Scenarios}.
+In the first scenario, heat energy requirement weighting factor is set to 0. The electric energy consumption E\textsubscript{el,r} is the only variable effecting the fitness value. In the second scenario, the heat energy requirement weighting factor is set to 1. In this case, an optimization of the total energy consumption (electricity and heat) is performed. An overview of the used weighting and cost factors is given in table \ref{TAB_Scenarios}.
 
 \begin{table}[t]
 	\caption{weight factors and part load ratio for the scenarios}
@@ -487,7 +487,7 @@ In the first scenario, heat energy requirement weighting factor is set to 0. The
 		& Q\textsubscript{e,r} & PLR & Q\textsubscript{h,gross} 
 		& $\omega\textsubscript{1} $ & $\omega\textsubscript{2} $\\
 		& \multicolumn{2}{l}{values} & ({\it{\degree C}}) & ({\it{\degree C}})& ({\it{kWh}}) &  ({\it{\%}}) & ({\it{kWh}})\\
-		&  P\textsubscript{el,r} &  Q\textsubscript{h,net}\\
+		&  E\textsubscript{el,r} &  Q\textsubscript{h,net}\\
 		\colrule
 		1 & X & & 7.8 & 25.1 & 4.7E5 & 84.4 & 61375 & 1 & 0\\
 		2 & X & & 7.2 & 24.3 & 2.0E5 & 35.9 & 86722 & 1 & 0\\
@@ -499,7 +499,7 @@ In the first scenario, heat energy requirement weighting factor is set to 0. The
 \end{table}
 
 Table \ref{TAB_OptResults} shows the electric energy consumption of a simulated optimized priority vector compared to measured data. A reduction can be achieved with both workload (PLR) conditions. The reduction ratio highly depends on the workload. A higher workload leads to less optimization potential. 
-Scenario 3 and 4 are the same with the heat recovery systems included in the fitness function. So there are two main variables that effect the fitness value: P\textsuperscript{el,r} and Q\textsubscript{h,net}. Because of the influence of Q\textsubscript{h,net} to the fitness value, the reduction ratio is even higher, than without heat recovery. The results also depend on the operation strategy of the chillers in operation while the measured data sets were recorded.
+Scenario 3 and 4 are the same with the heat recovery systems included in the fitness function. So there are two main variables that effect the fitness value: E\textsubscript{el,r} and Q\textsubscript{h,net}. Because of the influence of Q\textsubscript{h,net} to the fitness value, the reduction ratio is even higher, than without heat recovery. The results also depend on the operation strategy of the chillers in operation while the measured data sets were recorded.
 
 \begin{table}[t]
 	\caption{Optimization performance}
@@ -507,7 +507,7 @@ Scenario 3 and 4 are the same with the heat recovery systems included in the fit
 			lll@{\hskip6pt}lll@{\hskip6pt}lll@{\hskip6pt}lll@{\hskip6pt}lll@{\hskip6pt}lll@{\hskip6pt}}
 		\toprule
 		scen. & PLR & \multicolumn{2}{l}{energy use ({\it{kWh}})}  & reduction \\
-		& ({\it{\%}}) & with optimization & without optimization & ({\it{\%}})\\
+		& ({\it{\%}}) & without optimization & with optimization & ({\it{\%}})\\
 
 		\colrule
 		1 & 84.4 & 104592 & 89038 & 14.87\\
@@ -522,7 +522,7 @@ Scenario 3 and 4 are the same with the heat recovery systems included in the fit
 
 \section{Conclusion}
 In this article we presented a novel method called BaMa Method which was applied to the problem of optimal selection of industrial chillers. This was done using simulation models of the underlying system, which where derived from monitoring data. Different target functions where tested in order to reflect varying management targets. This goes beyond what similar 
-Regarding the next steps, further work will be done on the improvement of model quality. Using the current models, still an overall error of up to 28\% has to be expected in the worst case. Also the optimization time will be improved by selecting more intelligent implementations.
+Regarding the next steps, further work will be done on the improvement of model quality. Using the current models, still an error of up to 38.5\% has to be expected in the worst case. Also the optimization time will be improved by selecting more intelligent implementations.
 Both, the modelling quality and the optimization time are due to the chosen software environment AMESIM, which prevented the use of more sophisticated modelling techniques.
 \bibliography{Data_based_optimization}   % name your BibTeX data base
 \bibliographystyle{elsarticle-num}      % mathematics and physical sciences
