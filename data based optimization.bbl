@@ -11,7 +11,7 @@ S.~R. Thangavelu, A.~Myat, A.~Khambadkone, {Energy optimization methodology of
 
 \bibitem{Chua2013}
 K.~Chua, S.~Chou, W.~Yang, J.~Yan, {Achieving better energy-efficient air
-  conditioning – A review of technologies and strategies}, Applied Energy 104
+  conditioning: A review of technologies and strategies}, Applied Energy 104
   (2013) 87--104.
 
 \bibitem{Beghi2011}
@@ -31,8 +31,7 @@ C.-L. Chen, Y.-C. Chang, T.-S. Chan, {Applying smart models for energy saving
 \bibitem{Munoz2017}
 J.~C. Munoz, J.~F. Ordonez, V.~Gutierrez, C.~A. Canizares, K.~Bhattacharya,
   S.~Paudyal, {Applications of optimal industrial load management modeling in
-  smart grids}, 2017 IEEE Manchester PowerTech, Powertech 2017~(June) (2017)
-  1--6.
+  smart grids}, in: 2017 IEEE Manchester PowerTech, IEEE, 2017, pp. 1--6.
 
 \bibitem{Chryssolouris1992}
 G.~Chryssolouris, {Manufacturing Systems: Theory and Practice}, 1st Edition,
@@ -49,8 +48,8 @@ L.~Monostori, {Cyber-physical Production Systems: Roots, Expectations and
 
 \bibitem{Thiede2012}
 S.~Thiede, G.~Bogdanski, C.~Herrmann, {A Systematic Method for Increasing the
-  Energy and Resource Efficiency in Manufacturing Companies}, Procedia CIRP 2
-  (2012) 28--33.
+  Energy and Resource Efficiency in Manufacturing Companies}, in: Procedia
+  CIRP, Vol.~2, 2012, pp. 28--33.
 
 \bibitem{Introna2014}
 V.~Introna, V.~Cesarotti, M.~Benedetti, S.~Biagiotti, R.~Rotunno, {Energy
@@ -65,13 +64,14 @@ G.~May, I.~Barletta, B.~Stahl, M.~Taisch, {Energy management in production: A
 
 \bibitem{Kovacic2013}
 I.~Kovacic, K.~Orehounig, A.~Mahdavi, F.~Bleicher, A.-A. Dimitrou,
-  L.~Waltenbereger, {Energy Efficient Production – Interdisciplinary,
-  Systemic Approach through Integrated Simulation}, Strojarstvo: Journal for
-  Theory and Application in Mechanical Engineering 55~(1) (2013) 17--34.
+  L.~Waltenbereger, {Energy Efficient Production: Interdisciplinary, Systemic
+  Approach through Integrated Simulation}, Strojarstvo: Journal for Theory and
+  Application in Mechanical Engineering 55~(1) (2013) 17--34.
 
 \bibitem{Leobner}
-I.~Leobner, {Balanced Manufacturing – A Modeling and Simulation Approach for
-  Energy Efficient Production Plant Operation}.
+I.~Leobner, {Balanced Manufacturing: A Modeling and Simulation Approach for
+  Energy Efficient Production Plant Operation}, in: Proceedings of the 10th
+  Conference on Sustainable Development of Energy, SDEWES2015, 2015, pp. 1--10.
 
 \bibitem{Hesselbach2008}
 J.~Hesselbach, C.~Herrmann, R.~Detzer, L.~Martin, S.~Thiede, B.~L{\"{u}}demann,
@@ -83,10 +83,6 @@ J.~Hesselbach, C.~Herrmann, R.~Detzer, L.~Martin, S.~Thiede, B.~L{\"{u}}demann,
 F.~Bleicher, F.~Duer, I.~Leobner, I.~Kovacic, B.~Heinzl, W.~Kastner,
   {Co-simulation environment for optimizing energy efficiency in production
   systems}, CIRP Annals - Manufacturing Technology 63~(1) (2014) 441--444.
-
-\bibitem{monostori_cyber-physical_2014}
-L.~Monostori, {Cyber-physical production systems: Roots, expectations and
-  R{\&}D challenges}, Procedia CIRP 17 (2014) 9--13.
 
 \bibitem{Balci2012}
 O.~Balci, {A life cycle for modeling and simulation}, Simulation 88~(7) (2012)
@@ -104,7 +100,7 @@ A.~Schatten, M.~Demolsky, D.~Winkler, S.~Biffl, E.~Gostischa-Franta,
 
 \bibitem{Hydeman2002}
 M.~Hydeman, K.~L. Gillespie, A.~L. Dexter, {Tools and techniques to calibrate
-  electric chiller component models}, in: ASHRAE Transactions, 2002.
+  electric chiller component models}, in: ASHRAE Transactions, 2002, pp. 1--9.
 
 \bibitem{Monfet}
 D.~Monfet, R.~Zmeureanu, {Identification of the electric chiller model for the
